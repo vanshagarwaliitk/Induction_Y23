@@ -46,5 +46,5 @@ You got your dream job in World Bank. To give other employees a run for their mo
 
 - Here is the Github <a href="https://github.com/AerialRobotics-IITK/Induction_Y23">link</a>
 - Make a fork of this repo and create a branch in the fork with the following name: [firstname]_[lastname_initial] eg. atulya_s
-- Then create a pull request by 23:59:59, 10th May 2024
+- Then create a pull request by 23:59:59, 11th May 2024
 - In case of any doubts, create an issue on the main repo
