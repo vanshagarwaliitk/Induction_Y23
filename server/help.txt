@@ -1,0 +1,51 @@
+1. get <filename> – Downloads a file from the FTP server to the local system.
+
+Example: get file.txt downloads file.txt from the server.
+
+2. put <filename> – Uploads a file from the local system to the FTP server.
+
+Example: put file.txt uploads file.txt to the server.
+
+3. mget <files> – Downloads multiple files from the FTP server using wildcards (*).
+
+Example: mget *.txt downloads all .txt files.
+
+4. mput <files> – Uploads multiple files from the local system to the FTP server.
+
+Example: mput *.jpg uploads all .jpg files.
+
+5. hash – Enables or disables hash (#) mark printing during file transfers to show progress.
+
+Example: Running hash before a transfer prints # marks for every block of data.
+
+6. mkdir <directory> – Creates a directory on the FTP server.
+
+Example: mkdir myfolder creates myfolder on the server.
+
+7. delete <filename> – Deletes a single file from the FTP server.
+
+Example: delete oldfile.txt removes oldfile.txt from the server.
+
+8. mdelete <files> – Deletes multiple files from the FTP server using wildcards.
+
+Example: mdelete *.log removes all .log files.
+
+9. ls – Lists files and directories in the current directory on the FTP server.
+
+Example: ls shows a list of files/folders on the server.
+
+10. lcd <directory> – Changes the local working directory (on the client machine).
+
+Example: lcd /home/user/downloads sets the local directory for downloads.
+
+11. cd <directory> – Changes the current working directory on the FTP server.
+
+Example: cd /public_html moves to /public_html on the server.
+
+12. cd .. - To move to the parent directory of the current working directory
+
+Example: If you are in xft directory writing cd .. will lead you to parent directory of this.
+
+13. exit – Closes the FTP session and exits the FTP client.
+
+Example: exit logs out and closes the connection.
